@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0.94"
+async-trait = "0.1.83"
+axum = { version = "0.7.9", features = ["macros"] }
+rand = "0.8.5"
+solana-client = "2.1.6"
+solana-sdk="2.1.6"
+spl-token = { version = "7.0.0", features = ["no-entrypoint"] }
+tokio = { version = "1.42.0", features = ["full"] }
